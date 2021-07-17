@@ -33,9 +33,6 @@ buttons = [
     [
         InlineKeyboardButton('🎧Join Voice Chat', url='https://t.me/mohanlal_fans_association?voicechat')
     ]
-
-36
-
     ]
 @Client.on_inline_query()
 async def search(client, query):
